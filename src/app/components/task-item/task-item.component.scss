@@ -1,0 +1,14 @@
+.task-item {
+  display: flex;
+  gap: 10px;
+
+  &.reminder {
+    background-color: #00ff0055;
+  }
+  .button {
+    cursor: pointer;
+    &.delete {
+      color: red;
+    }
+  }
+}

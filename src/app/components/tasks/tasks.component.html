@@ -1,0 +1,14 @@
+<app-task-form
+  *ngIf="showForm"
+  (saveTask)="saveTask($event)"
+  [initData]="initData"
+></app-task-form>
+
+<app-task-item
+  *ngFor="let task of tasks"
+  [task]="task"
+  (onDeleteTask)="deleteTask($event)"
+  (onEditTask)="editTask($event)"
+>
+  {{ task.text }}
+</app-task-item>

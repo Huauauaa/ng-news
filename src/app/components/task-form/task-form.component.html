@@ -1,0 +1,16 @@
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <label for="text">任务</label>
+    <input name="text" [(ngModel)]="text" />
+  </div>
+  <div>
+    <label for="day">日期</label> <input name="day" [(ngModel)]="day" />
+  </div>
+  <div>
+    <label for="day">提醒</label>
+    <input type="checkbox" name="reminder" [(ngModel)]="reminder" />
+  </div>
+  <div>
+    <input type="submit" value="保存" />
+  </div>
+</form>
