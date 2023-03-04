@@ -20,8 +20,12 @@
         "build": {
           "builder": "@angular-builders/custom-webpack:browser",
           "options": {
+            "indexTransform": "./index-html-transform.ts",
             "customWebpackConfig": {
-              "path": "./extra-webpack.config.js"
+              "path": "./extra-webpack.config.js",
+              "mergeRules": {
+                "externals": "replace"
+              }
             },
             "outputPath": "dist",
             "index": "src/index.html",
