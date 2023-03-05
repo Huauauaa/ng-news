@@ -1578,9 +1578,9 @@
   integrity sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "18.14.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.5.tgz#4a13a6445862159303fc38586598a9396fc408b3"
-  integrity sha512-CRT4tMK/DHYhw1fcCEBwME9CSaZNclxfzVMe7GsO6ULSwsttbj70wSiX6rZdIjGblu93sTJxLdhNIT85KKI7Qw==
+  version "18.14.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.6.tgz#ae1973dd2b1eeb1825695bb11ebfb746d27e3e93"
+  integrity sha512-93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==
 
 "@types/node@^12.11.1":
   version "12.20.55"
@@ -2523,6 +2523,18 @@ copy-webpack-plugin@10.2.1:
     schema-utils "^4.0.0"
     serialize-javascript "^6.0.0"
 
+copy-webpack-plugin@^11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/copy-webpack-plugin/-/copy-webpack-plugin-11.0.0.tgz#96d4dbdb5f73d02dd72d0528d1958721ab72e04a"
+  integrity sha512-fX2MWpamkW0hZxMEg0+mYnA40LTosOSa5TqZ9GYIBzyJa9C3QUaMPSE2xAi/buNr8u89SfD9wHSQVBzrRa/SOQ==
+  dependencies:
+    fast-glob "^3.2.11"
+    glob-parent "^6.0.1"
+    globby "^13.1.1"
+    normalize-path "^3.0.0"
+    schema-utils "^4.0.0"
+    serialize-javascript "^6.0.0"
+
 core-js-compat@^3.20.2, core-js-compat@^3.21.0:
   version "3.29.0"
   resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.29.0.tgz#1b8d9eb4191ab112022e7f6364b99b65ea52f528"
@@ -2862,9 +2874,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.318"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.318.tgz#7e0755bb80638175327bd9bc14dc4b9a0dbb62b5"
-  integrity sha512-EQHZE/yO9Sg6gIP9VezPltDWFA8pMnv7dNRb4Y0ukels3iyXTH313gbHvK/tZwUF+jeh5F5fDf1rqWb8ZWX8fw==
+  version "1.4.320"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.320.tgz#4d83a90ff74f93939c5413c2ac5a16c696600632"
+  integrity sha512-h70iRscrNluMZPVICXYl5SSB+rBKo22XfuIS1ER0OQxQZpKTnFpuS6coj7wY9M/3trv7OR88rRMOlKmRvDty7Q==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -3222,7 +3234,7 @@ fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
-fast-glob@^3.2.7, fast-glob@^3.2.9:
+fast-glob@^3.2.11, fast-glob@^3.2.7, fast-glob@^3.2.9:
   version "3.2.12"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.12.tgz#7f39ec99c2e6ab030337142da9e0c18f37afae80"
   integrity sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==
@@ -3498,6 +3510,17 @@ globby@^12.0.2:
     dir-glob "^3.0.1"
     fast-glob "^3.2.7"
     ignore "^5.1.9"
+    merge2 "^1.4.1"
+    slash "^4.0.0"
+
+globby@^13.1.1:
+  version "13.1.3"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-13.1.3.tgz#f62baf5720bcb2c1330c8d4ef222ee12318563ff"
+  integrity sha512-8krCNHXvlCgHDpegPzleMq07yMYTO2sXKASmZmquEYWEmCx6J5UTRbp5RwMJkTJGtcQ44YpiUYUiN0b9mzy8Bw==
+  dependencies:
+    dir-glob "^3.0.1"
+    fast-glob "^3.2.11"
+    ignore "^5.2.0"
     merge2 "^1.4.1"
     slash "^4.0.0"
 
@@ -4297,9 +4320,9 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 lru-cache@^7.7.1:
-  version "7.18.1"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.18.1.tgz#4716408dec51d5d0104732647f584d1f6738b109"
-  integrity sha512-8/HcIENyQnfUTCDizRu9rrDyG6XG/21M4X7/YEGZeD76ZJilFPAUVb/2zysFf7VVO1LEjCDFyHp8pMMvozIrvg==
+  version "7.18.2"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.18.2.tgz#5ba8dba5778e7771af65803172ce75b49c1504c2"
+  integrity sha512-KytVYmZ3reaw/f3d7GCISvWWjTYxszNdvD5rDvm/zECga3eSWzryRY7iauJsjo6aaw03lHYTSNTk7lW83Bv+zQ==
 
 magic-string@0.25.7:
   version "0.25.7"
